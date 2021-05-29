@@ -1,0 +1,180 @@
+/* dropped in below */
+@import url('https://fonts.googleapis.com/css?family=Righteous|Unica+One|Nixie+One&display=swap');
+ html, body {
+	 margin: 0px;
+	 height: 100%;
+	 width: 100%;
+	 font-family: 'Nixie One';
+	 color: #242830;
+}
+ a {
+	 text-decoration: none;
+	 color: #242830;
+}
+/* header */
+ .header {
+	 padding-left: 300px;
+	 padding-right: 300px;
+	 padding-top: 50px;
+	 padding-bottom: 50px;
+	 transition: padding-left 0.5s, padding-right 0.5s;
+	 font-size: 20px;
+}
+ .header a {
+	 float: right;
+	 font-family: 'Unica One';
+}
+ .header a:not(.title) {
+	 padding-right: 20px;
+}
+ .header .title {
+	 font-size: 25px;
+	 font-family: 'Righteous';
+	 float: left;
+}
+/* jumbo */
+ .jumbo {
+	 padding-left: 300px;
+	 padding-right: 300px;
+	 padding-top: 50px;
+	 padding-bottom: 50px;
+	 font-size: 35px;
+	 font-weight: bold;
+	 display: flex;
+	 flex-direction: row;
+	 transition: padding-left 0.5s, padding-right 0.5s;
+}
+ .jumbo div {
+	 text-align: center;
+	 display: flex;
+	 flex-direction: column;
+	 justify-content: center;
+}
+ .jumbo .text {
+	 width: 30%;
+	 text-align: left;
+	 background-color: #f9e5b6;
+	 padding: 50px;
+	 border-radius: 10px;
+	 display: flex;
+	 flex-direction: column;
+}
+ .jumbo .text .title {
+	 font-family: 'Righteous';
+	 font-size: 40px;
+}
+ .jumbo .text .description {
+	 font-family: 'Nixie One';
+	 font-size: 25px;
+	 margin-top: 20px;
+}
+ .jumbo .text button {
+	 margin-top: 25px;
+	 border: none;
+	 background: #edc371;
+	 width: 150px;
+	 font-family: 'Unica One';
+	 font-size: 25px;
+	 padding: 5px;
+	 filter: grayscale(50%);
+	 transition: filter 0.3s;
+}
+ .jumbo .text button:hover {
+	 filter: grayscale(0%);
+}
+ .jumbo .text button:focus {
+	 outline: none;
+}
+ .jumbo .img {
+	 width: 70%;
+	 align-items: center;
+}
+ .jumbo img {
+	 width: 70%;
+}
+/* section */
+ .section {
+	 padding-left: 300px;
+	 padding-right: 300px;
+	 padding-top: 50px;
+	 padding-bottom: 50px;
+	 display: flex;
+	 flex-direction: column;
+	 transition: padding-left 0.5s, padding-right 0.5s;
+}
+ .section .big {
+	 font-size: 35px;
+	 font-family: 'Righteous';
+	 margin-bottom: 25px;
+}
+ .section .small {
+	 font-size: 25px;
+	 font-weight: bold;
+	 margin-bottom: 25px;
+}
+ .section span {
+	 font-family: 'Righteous';
+}
+ .section button {
+	 border: none;
+	 background: #f9e5b6;
+	 width: 120px;
+	 font-family: 'Unica One';
+	 font-size: 20px;
+	 padding: 5px;
+	 filter: grayscale(50%);
+	 transition: filter 0.3s;
+}
+ .section button:hover {
+	 filter: grayscale(0%);
+}
+ .section button:focus {
+	 outline: none;
+}
+/* img */
+ .image {
+	 padding-left: 300px;
+	 padding-right: 300px;
+	 padding-top: 50px;
+	 padding-bottom: 50px;
+	 text-align: center;
+	 transition: padding-left 0.5s, padding-right 0.5s;
+}
+ .image img {
+	 width: 80%;
+}
+/* socials */
+ .socials {
+	 padding-left: 300px;
+	 padding-right: 300px;
+	 padding-top: 50px;
+	 padding-bottom: 50px;
+	 text-align: center;
+	 transition: padding-left 0.5s, padding-right 0.5s;
+}
+ .socials a {
+	 opacity: 0.6;
+	 padding-left: 30px;
+	 padding-right: 30px;
+	 transition: padding-left 0.5s, padding-right 0.5s, opacity 0.3s;
+}
+ .socials a:hover {
+	 opacity: 0.8;
+}
+ .socials img {
+	 width: 30px;
+	 filter: grayscale(100%);
+	 transition: width 0.5s;
+}
+/* footer */
+ .footer {
+	 padding-left: 300px;
+	 padding-right: 300px;
+	 padding-top: 50px;
+	 padding-bottom: 50px;
+	 text-align: center;
+	 font-family: 'Unica One';
+	 font-size: 20px;
+	 transition: padding-left 0.5s, padding-right 0.5s;
+}
+ 
