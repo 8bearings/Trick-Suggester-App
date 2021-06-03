@@ -1,3 +1,5 @@
+
+
 /* dropped in below */
 @import url('https://fonts.googleapis.com/css?family=Righteous|Unica+One|Nixie+One&display=swap');
  html, body {
@@ -12,6 +14,16 @@
 	 color: #242830;
 }
 /* header */
+#bigTitle{
+	font-size: 80px;
+	font-family: 'Righteous';
+	font-weight: bold;
+}
+.btn{
+background-color: rgb(20, 20, 20);
+margin: 5rem;
+}
+
  .header {
 	 padding-left: 300px;
 	 padding-right: 300px;
@@ -19,6 +31,7 @@
 	 padding-bottom: 50px;
 	 transition: padding-left 0.5s, padding-right 0.5s;
 	 font-size: 20px;
+	 font-weight: bold;
 }
  .header a {
 	 float: right;
@@ -27,10 +40,12 @@
  .header a:not(.title) {
 	 padding-right: 20px;
 }
- .header .title {
+
+.bigTitle, .header .title {
 	 font-size: 25px;
 	 font-family: 'Righteous';
 	 float: left;
+	 font-weight: bold;
 }
 /* jumbo */
  .jumbo {
@@ -68,7 +83,7 @@
 	 font-size: 25px;
 	 margin-top: 20px;
 }
- .jumbo .text button {
+.button, .jumbo .text button {
 	 margin-top: 25px;
 	 border: none;
 	 background: #edc371;
@@ -79,10 +94,10 @@
 	 filter: grayscale(50%);
 	 transition: filter 0.3s;
 }
- .jumbo .text button:hover {
+.button, .jumbo .text button:hover {
 	 filter: grayscale(0%);
 }
- .jumbo .text button:focus {
+.button, .jumbo .text button:focus {
 	 outline: none;
 }
  .jumbo .img {
@@ -115,7 +130,7 @@
  .section span {
 	 font-family: 'Righteous';
 }
- .section button {
+.button, .section button {
 	 border: none;
 	 background: #f9e5b6;
 	 width: 120px;
@@ -125,10 +140,10 @@
 	 filter: grayscale(50%);
 	 transition: filter 0.3s;
 }
- .section button:hover {
+ .button, .section button:hover {
 	 filter: grayscale(0%);
 }
- .section button:focus {
+ .button, .section button:focus {
 	 outline: none;
 }
 /* img */
@@ -178,3 +193,4 @@
 	 transition: padding-left 0.5s, padding-right 0.5s;
 }
  
+
