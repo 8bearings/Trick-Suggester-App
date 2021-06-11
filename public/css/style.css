@@ -14,24 +14,40 @@
 	 color: #242830;
 }
 /* header */
-#bigTitle{
-	font-size: 80px;
+.top{
+	font-size: 3.5em;
 	font-family: 'Righteous';
 	font-weight: bold;
 }
 .btn{
-background-color: rgb(20, 20, 20);
-margin: 5rem;
+	background-color: rgb(20, 20, 20);
+	margin: 2rem;
+	width: 13%;
+	margin-left: 5em;
+	margin-right: 5em;
+}
+.feedbtn{
+	background-color: rgb(20, 20, 20);
+	margin: 2rem;
+	width: 30%;
+	margin-left: 5em;
+	margin-right: 5em;
 }
 
+.row{
+	width: 100%;
+
+}
  .header {
-	 padding-left: 300px;
-	 padding-right: 300px;
+	 padding-left: 100px;
+	 padding-right: 100px;
 	 padding-top: 50px;
 	 padding-bottom: 50px;
 	 transition: padding-left 0.5s, padding-right 0.5s;
-	 font-size: 20px;
+	 font-size: 2em;
 	 font-weight: bold;
+	 background-color: rgb(212, 212, 212);
+	 border-radius: 15px;
 }
  .header a {
 	 float: right;
@@ -49,11 +65,11 @@ margin: 5rem;
 }
 /* jumbo */
  .jumbo {
-	 padding-left: 300px;
-	 padding-right: 300px;
+	 padding-left: 3em;
+	 padding-right: 5em;
 	 padding-top: 50px;
 	 padding-bottom: 50px;
-	 font-size: 35px;
+	 font-size: 3em;
 	 font-weight: bold;
 	 display: flex;
 	 flex-direction: row;
@@ -64,23 +80,24 @@ margin: 5rem;
 	 display: flex;
 	 flex-direction: column;
 	 justify-content: center;
+	 padding-left: 3em;
 }
  .jumbo .text {
-	 width: 30%;
+	 width: 35%;
 	 text-align: left;
 	 background-color: #f9e5b6;
-	 padding: 50px;
+	 padding: 2.5em;
 	 border-radius: 10px;
 	 display: flex;
 	 flex-direction: column;
 }
  .jumbo .text .title {
 	 font-family: 'Righteous';
-	 font-size: 40px;
+	 font-size: 1.1em;
 }
  .jumbo .text .description {
 	 font-family: 'Nixie One';
-	 font-size: 25px;
+	 font-size: .6em;
 	 margin-top: 20px;
 }
 .button, .jumbo .text button {
@@ -89,7 +106,7 @@ margin: 5rem;
 	 background: #edc371;
 	 width: 150px;
 	 font-family: 'Unica One';
-	 font-size: 25px;
+	 font-size: 1em;
 	 padding: 5px;
 	 filter: grayscale(50%);
 	 transition: filter 0.3s;
@@ -105,7 +122,8 @@ margin: 5rem;
 	 align-items: center;
 }
  .jumbo img {
-	 width: 70%;
+	 width: 100%;
+	padding-left: 1.5em;
 }
 /* section */
  .section {
@@ -147,7 +165,7 @@ margin: 5rem;
 	 outline: none;
 }
 /* img */
- .image {
+ /* .image {
 	 padding-left: 300px;
 	 padding-right: 300px;
 	 padding-top: 50px;
@@ -157,7 +175,7 @@ margin: 5rem;
 }
  .image img {
 	 width: 80%;
-}
+} */
 /* socials */
  .socials {
 	 padding-left: 300px;
@@ -194,3 +212,78 @@ margin: 5rem;
 }
  
 
+@media only screen and (max-width: 600px) {
+	.btn{
+		background-color: rgb(20, 20, 20);
+		margin: 1rem;
+		width: 20%;
+		margin-left: 2em;
+		margin-right: 2em;
+	}
+	.header a {
+		font-size: .8em;
+		font-family: 'Unica One';
+		
+   }
+	.header a:not(.title) {
+		width: 100%;
+		text-align: center;
+		padding-right: 1px;
+		background-color: white;
+		border-radius: 10%;
+   }
+	.jumbo {
+		width: 100%;
+		padding-left: 3em;
+		padding-right: 4em;
+		font-size: 2em;
+		font-weight: bold;
+		display: flex;
+		flex-direction: row;
+		transition: padding-left 0.5s, padding-right 0.5s;
+		background-color: #f9e5b6;
+   }
+   	.jumbo .text {
+		width: 100%;
+		text-align: left;
+		background-color: #f9e5b6;
+		/* padding: 2.5em; */
+		border-radius: 10px;
+		display: flex;
+		flex-direction: row;
+	
+}
+
+	.jumbo .text .description {
+		font-family: 'Nixie One';
+		font-size: .8em;
+		margin-top: 15px;
+}
+ 	.img {
+		width: 100%;
+		align-items: right;
+		position: absolute;
+		margin-top: 10em;
+		margin-left: 1.07em;
+    	/* border: 1px solid red; */
+}
+	.section {
+		padding-left: 1.5em;
+		padding-right: 1.5em;
+		padding-top: 50px;
+		padding-bottom: 50px;
+		display: flex;
+		flex-direction: column;
+		transition: padding-left 0.5s, padding-right 0.5s;
+}
+	.footer {
+		padding-left: 1.5em;
+		padding-right: 1.5em;
+		padding-top: 1em;
+		padding-bottom: 1em;
+		text-align: center;
+		font-family: 'Unica One';
+		font-size: 1em;
+		transition: padding-left 0.5s, padding-right 0.5s;
+}
+  }
