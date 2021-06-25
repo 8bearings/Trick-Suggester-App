@@ -1,5 +1,6 @@
 <%- include('partials/header') -%>
-  <div class="container">
+<!-- OLD FEED PAGE -->
+  <!-- <div class="container">
     <div class="row justify-content-center mt-5">
       <ul class="row list-unstyled">
         <% for(var i=0; i<posts.length; i++) {%>
@@ -11,5 +12,29 @@
         <% } %>
         </ul>
     </div>
-  </div>  
+  </div>   -->
+  <!-- NEW SELECTION PAGE -->
+  
+  <div class='peanut' include="form-input-select()">
+    <select required onchange="location = this.value">
+      <!--
+        This is how we can do "placeholder" options.
+        note: "required" attribute is on the select
+      -->
+      <option value=""
+              hidden
+      >Skill Level</option>
+ 
+      <!-- normal options -->
+
+      <option value="start.html">Just Starting</option>
+      <option value="2">Beginner</option>
+      <option value="3">Intermediate</option>
+      <option value="4">Gnarly</option>
+      
+    </select>
+  </div>
+  
+  
+  
 <%- include('partials/footer') -%>
