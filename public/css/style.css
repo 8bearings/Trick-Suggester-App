@@ -231,12 +231,12 @@
 	border-top-color: #a7a5a5;
 	top: 55%;
 }
-@-moz-document url-prefix() {
+/* @-moz-document url-prefix() {
 	border-right: 3px solid #e6e6e6;
 [include*="form-input-select()"]:hover {
 		border-right: 3px solid #005ba6;
    }
-}
+} */
 [include*="form-input-select()"]:hover select {
 	box-shadow: 0 2px 3px rgba(0, 91, 166, 0.1) inset;
 	border-color: #005ba6;
