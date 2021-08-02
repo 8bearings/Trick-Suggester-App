@@ -18,6 +18,38 @@ module.exports = {
       console.log(err);
     }
   },
+  getStart: async (req, res) => {
+    try {
+      const posts = await Post.find().sort({ createdAt: "desc" }).lean();
+      res.render("start.ejs", { posts: posts });
+    } catch (err) {
+      console.log(err);
+    }
+  },
+  getBeginner: async (req, res) => {
+    try {
+      const posts = await Post.find().sort({ createdAt: "desc" }).lean();
+      res.render("beginner.ejs", { posts: posts });
+    } catch (err) {
+      console.log(err);
+    }
+  },
+  getIntermediate: async (req, res) => {
+    try {
+      const posts = await Post.find().sort({ createdAt: "desc" }).lean();
+      res.render("intermediate.ejs", { posts: posts });
+    } catch (err) {
+      console.log(err);
+    }
+  },
+  getGnarly: async (req, res) => {
+    try {
+      const posts = await Post.find().sort({ createdAt: "desc" }).lean();
+      res.render("gnarly.ejs", { posts: posts });
+    } catch (err) {
+      console.log(err);
+    }
+  },
   getPost: async (req, res) => {
     try {
       const post = await Post.findById(req.params.id);
