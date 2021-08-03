@@ -1,4 +1,7 @@
-<div class='peanut' include="form-input-select()">
+<%- include('partials/header') -%>
+
+  
+  <div class='peanut' include="form-input-select()">
     <select required onchange="location = this.value">
       <!--
         This is how we can do "placeholder" options.
@@ -11,9 +14,9 @@
       <!-- normal options -->
 
       <option value="/start">Just Starting</option>
-      <option value="beginner.ejs">Beginner</option>
-      <option value="intermediate.ejs">Intermediate</option>
-      <option value="gnarly.ejs">Gnarly</option>
+      <option value="/beginner">Beginner</option>
+      <option value="/intermediate">Intermediate</option>
+      <option value="/gnarly">Gnarly</option>
       
     </select>
   </div>
