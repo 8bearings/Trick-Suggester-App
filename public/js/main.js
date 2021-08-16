@@ -121,7 +121,7 @@ var QuizUI = {
 };
 //Create Questions
 var questions = [
-    new Question("Who was the first President of the United States?", [ "George Washington", "Thomas Jefferson", "Thomas Edison", "I don't know" ], "George Washington"),
+    new Question("Can you push/ride on a skateboard?", [ "Yes", "No", "A little", "I don't know" ], "Yes"),
     new Question("What is the answer to the Ultimate Question of Life, the Universe, and Everything?", ["Pi","42", "Wah?", "I don't know"], "42"),
     new Question("Do you love to code?", ["No","Yes", "Hell Yeah", "No"], "Hell Yeah"),
     new Question("What's the best programming language?", ["Javascript","C#", "Php", "Python"], "Javascript"),
