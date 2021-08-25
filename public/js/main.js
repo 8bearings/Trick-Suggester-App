@@ -135,7 +135,7 @@ var quiz = new Quiz(questions);
 QuizUI.displayNext();
 }
 
-// Randomizer
+// Randomizer EZ
 
 const ezTricks = [
     { 
@@ -143,120 +143,28 @@ const ezTricks = [
       logo: "https://www.liveabout.com/thmb/OK3A5zaRcXH1SwnT3-PX0o-IQko=/1002x1002/smart/filters:no_upscale()/GettyImages-970172544-5c70070dc9e77c00016bfd61.jpg"
     },
     { 
-      name: "Heat",
-      logo: "https://lh5.googleusercontent.com/-CoS1Y_1NwB4/AAAAAAAAAAI/AAAAAAAAAGk/bQ01ywkr4Oc/s120-c/photo.jpg"
+      name: "Step On",
+      logo: "https://i.ytimg.com/vi/iku4YmdRUuE/maxresdefault.jpg"
     },
     { 
-      name: "Celtics",
-      logo: "https://lh5.googleusercontent.com/-bqScML7XAxw/AAAAAAAAAAI/AAAAAAAADGw/0yaLLvca5wg/s120-c/photo.jpg"
+      name: "Pushing",
+      logo: "https://i.pinimg.com/originals/32/15/90/32159076377b8e796eb48b79dc4e620b.jpg"
     },
     { 
-      name: "Bulls",
-      logo: "https://lh6.googleusercontent.com/-B9EBLSqvYP8/AAAAAAAAAAI/AAAAAAAABLw/MHPidXI2E3Y/s120-c/photo.jpg"
+      name: "Rolling",
+      logo: "https://cdn.vox-cdn.com/thumbor/D_0bBpvAhy7ViWgWa4NTTX91GMY=/1400x1400/filters:format(jpeg)/cdn.vox-cdn.com/uploads/chorus_asset/file/18306834/DSCF2213.jpg"
     },
     { 
-      name: "Knicks",
-      logo: "https://lh6.googleusercontent.com/-pu4R1xvCv4Q/AAAAAAAAAAI/AAAAAAAACJI/cRQmSisWn0E/s120-c/photo.jpg"
+      name: "Stopping",
+      logo: "https://www.liveabout.com/thmb/Vqssjb9bxz0jnXISAePJZXoyEdo=/2121x1416/filters:no_upscale():max_bytes(150000):strip_icc()/485935107-56a878513df78cf7729e325f.jpg"
     },
     { 
-      name: "Spurs",
-      logo: "https://lh3.googleusercontent.com/-tT5q9eiW760/AAAAAAAAAAI/AAAAAAAAAs0/wftQ023nqW8/s120-c/photo.jpg"
+      name: "Turning",
+      logo: "https://www.thelongboardstore.com/product_images/uploaded_images/weelbite-article-wheelbite.jpg"
     },
     { 
-      name: "Rockets",
-      logo: "https://lh6.googleusercontent.com/-hJOEUhNJ2y0/AAAAAAAAAAI/AAAAAAAAAUA/bwml1wozrxs/s120-c/photo.jpg"
-    },
-    { 
-      name: "Nets",
-      logo: "https://lh4.googleusercontent.com/-07g9Tzca1Qg/AAAAAAAAAAI/AAAAAAAAIBs/4BiO3jwIT6k/s120-c/photo.jpg"
-    },
-    { 
-      name: "Warriors",
-      logo: "https://lh4.googleusercontent.com/-kdzsktQIjDk/AAAAAAAAAAI/AAAAAAAAEMc/GlRyDnEmd7I/s120-c/photo.jpg"
-    },
-    { 
-      name: "Mavericks",
-      logo: "https://lh6.googleusercontent.com/-slpV9wVGlpc/AAAAAAAAAAI/AAAAAAAAKjQ/w22hy18WF8w/s120-c/photo.jpg"
-    },
-    { 
-      name: "76ers",
-      logo: "https://lh3.googleusercontent.com/-dM5YTCEC8ag/AAAAAAAAAAI/AAAAAAAASbo/F5DHqNaUEn0/s120-c/photo.jpg"
-    },
-    { 
-      name: "Clippers",
-      logo: "https://lh4.googleusercontent.com/-7guI_knBXY8/AAAAAAAAAAI/AAAAAAAAFZ4/P57zIax7HP0/s120-c/photo.jpg"
-    },
-    { 
-      name: "Pistons",
-      logo: "https://lh6.googleusercontent.com/-SzQcFSVktYo/AAAAAAAAAAI/AAAAAAAABMg/jxWlYgL3tMk/s120-c/photo.jpg"
-    },
-    { 
-      name: "Cavaliers",
-      logo: "https://lh5.googleusercontent.com/-PyACUlT4OEI/AAAAAAAAAAI/AAAAAAAAFto/piXY5-37UlQ/s120-c/photo.jpg"
-    },
-    { 
-      name: "Hawks",
-      logo: "https://lh4.googleusercontent.com/-wfn0Ob8eZ40/AAAAAAAAAAI/AAAAAAAABjA/Fa1SN8q-Uck/s120-c/photo.jpg"
-    },
-    { 
-      name: "Suns",
-      logo: "https://lh4.googleusercontent.com/-1Uirg3UwebE/AAAAAAAAAAI/AAAAAAAAGVM/pJdubV_m354/s120-c/photo.jpg"
-    },
-    { 
-      name: "Nuggets",
-      logo: "https://lh4.googleusercontent.com/-afBh75LwX10/AAAAAAAAAAI/AAAAAAAAAs8/IFmOye1Fh1c/s120-c/photo.jpg"
-    },
-    { 
-      name: "Trail Blazers",
-      logo: "https://lh6.googleusercontent.com/-6porP9gICeE/AAAAAAAAAAI/AAAAAAAAlc8/51v4HJ2YeCo/s120-c/photo.jpg"
-    },
-    { 
-      name: "Magic",
-      logo: "https://lh3.googleusercontent.com/-dkcWwSD4OKw/AAAAAAAAAAI/AAAAAAAAB9E/EluQ8hOa3yY/s120-c/photo.jpg"
-    },
-    { 
-      name: "Bucks",
-      logo: "https://lh4.googleusercontent.com/-ldoVAVPteqs/AAAAAAAAAAI/AAAAAAAAB-4/oP_Ygs0IktQ/s120-c/photo.jpg"
-    },
-    { 
-      name: "Raptors",
-      logo: "https://lh3.googleusercontent.com/-dbq2QeUHC9w/AAAAAAAAAAI/AAAAAAAABuY/-tT-SSZGvz8/s120-c/photo.jpg"
-    },
-    { 
-      name: "Grizzlies",
-      logo: "https://lh6.googleusercontent.com/-3MHhr11w3js/AAAAAAAAAAI/AAAAAAAADF8/bzx_vtY7BFw/s120-c/photo.jpg"
-    },
-    { 
-      name: "Pelicans",
-      logo: "https://lh3.googleusercontent.com/-esVbV5BsHKM/AAAAAAAAAAI/AAAAAAAAAxs/BWMZUgs-TI4/s120-c/photo.jpg"
-    },
-    { 
-      name: "Timberwolves",
-      logo: "https://lh5.googleusercontent.com/-sAIE7PLnJ48/AAAAAAAAAAI/AAAAAAAABaY/QvNe42jXWKY/s120-c/photo.jpg"
-    },
-    { 
-      name: "Thunder",
-      logo: "https://lh4.googleusercontent.com/-7BAmvi8NTNo/AAAAAAAAAAI/AAAAAAAAEtE/QlB773K3Vv8/s120-c/photo.jpg"
-    },
-    { 
-      name: "Jazz",
-      logo: "https://lh6.googleusercontent.com/-lnQwsJXzbgM/AAAAAAAAAAI/AAAAAAAAAIc/ThLlxtFfSBQ/s120-c/photo.jpg"
-    },
-    { 
-      name: "Bobcats",
-      logo: "https://lh3.googleusercontent.com/-xIfVPsdVqB0/AAAAAAAAAAI/AAAAAAAAAFE/ITumzjq3fVw/s120-c/photo.jpg"
-    },
-    { 
-      name: "Kings",
-      logo: "https://lh4.googleusercontent.com/-xQkBZWrsBJ4/AAAAAAAAAAI/AAAAAAAAD0c/qAXvMe-5cQM/s120-c/photo.jpg"
-    },
-    { 
-      name: "Wizards",
-      logo: "https://lh6.googleusercontent.com/-zXcbF7QiMkU/AAAAAAAAAAI/AAAAAAAAALs/Nl3fkQWTFE0/s120-c/photo.jpg"
-    },
-    { 
-      name: "Pacers",
-      logo: "https://lh5.googleusercontent.com/-9mjX-jDdSoo/AAAAAAAAAAI/AAAAAAAADtE/15_5_ly0WBE/s120-c/photo.jpg"
+      name: "Kickturn",
+      logo: "https://images.squarespace-cdn.com/content/v1/57d2e53244024362fbb647c6/1522342259025-M4OHWR30U7ORE6HMGSXP/Deep+end+kick+turn"
     },
    ];
   
@@ -273,30 +181,7 @@ const ezTricks = [
   }
   console.log(printArray);
   }
-    
-//   document.querySelector(".home .random").click(function() {
-//     var index = Math.floor(Math.random()*ezTricks.length);
-//     addDist(index);
-//     document.querySelector(".home .name").text(ezTricks[index].name);
-//     document.querySelector(".home .logo").html("<img src='"+ezTricks[index].logo+"'/>");
-//   });
 
-/*window.onload=function(){
-  const random = document.querySelector('.random')
-
-  random.addEventListener('click', event => {
-    let index = Math.floor(Math.random()*ezTricks.length);
-    addDist(index);
-    document.getElementsByClassName('name').textContent += ezTricks[index].name
-    document.getElementsByClassName('logo').innerHtml += ("<img src='"+ezTricks[index].logo+"'/>");
-    console.log(ezTricks[index].name)
-  });
-}*/
-
-
-// BUGGED CLICK EVENT
-
-// redo
 window.onload=function(){
     const random = document.querySelector('.random')
   
@@ -310,3 +195,5 @@ window.onload=function(){
       console.log(ezTricks[index].name)
     };
   }
+
+ 
