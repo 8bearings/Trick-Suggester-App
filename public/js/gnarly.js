@@ -20,12 +20,8 @@ const intermediteTricks = [
       logo: "https://drscdn.500px.org/photo/147473893/q%3D80_m%3D1500_of%3D1/v2?sig=32b87ea8fb588eefccb91376988df9d047164e86f296c34e10786d00ad41db7e"
     },
     { 
-      name: "Switch 360 Flip",
+      name: "Switch 360 Kick Flip",
       logo: "https://i.vimeocdn.com/video/813666342_1920x1080.jpg?r=pad"
-    },
-    { 
-      name: "Nollie",
-      logo: "https://i.ytimg.com/vi/fp_UMkZabvk/hqdefault.jpg"
     },
     { 
       name: "Switch Ollie",
@@ -48,7 +44,7 @@ const intermediteTricks = [
       logo: "https://www.wikihow.com/images/thumb/6/6f/Noseslide-Step-9-Version-2.jpg/550px-nowatermark-Noseslide-Step-9-Version-2.jpg"
     },
     { 
-      name: "Big Spin Flip",
+      name: "Big Spin Kick Flip",
       logo: "https://everskate.com/wp-content/uploads/2017/11/big-flip-skateboard.jpg"
     },
     { 
@@ -56,7 +52,7 @@ const intermediteTricks = [
       logo: "https://www.thrashermagazine.com/mediaV2/k2/items/cache/be4dc40b1051f1eba662e07861b8aec1_M.jpg?t=1549663377"
     },
     { 
-      name: "Nollie 360 Flip",
+      name: "Nollie 360 Kick Flip",
       logo: "https://i.ytimg.com/vi/YQec9B9UXN4/hqdefault.jpg"
       },
     { 

@@ -97,8 +97,8 @@ var QuizUI = {
         }
     },
     displayScore: function() {
-        var gameOverHTML = "<h1>Game Over</h1>";
-        gameOverHTML += "<h2> Your score is: " + quiz.score + "</h2>";
+        var gameOverHTML = "<h1>Match Your Skill Level!</h1>";
+        gameOverHTML += "<h2> Your skill level is: " + quiz.score + "</h2>";
         this.populateIdWithHTML("quiz", gameOverHTML);
     },
     
@@ -121,10 +121,10 @@ var QuizUI = {
 };
 //Create Questions
 var questions = [
-    new Question("Can you push/ride on a skateboard?", [ "Yes", "No", "A little", "I don't know" ], "Yes"),
-    new Question("Can you ollie?", [ "Yes", "No", "sometimes", "I don't know" ], "Yes"),
-    new Question("Can you kickflip or heelflip?", [ "Yes", "No", "sometimes", "I don't know" ], "Yes"),
-    new Question("Can you flip down stairs or into grinds/slides? ", [ "Yes", "No", "sometimes", "I don't know" ], "Yes"),
+    new Question("Can you push/ride on a skateboard?", [ "Yes", "No", "Somewhat", "I don't know" ], "Yes"),
+    new Question("Can you ollie?", [ "Yes", "No", "Sometimes", "I don't know" ], "Yes"),
+    new Question("Can you kickflip or heelflip?", [ "Yes", "No", "Sometimes", "I don't know" ], "Yes"),
+    new Question("Can you skate down stairs, hand rails, or comfortable on steep vert? (if one applies *click yes*", [ "Yes", "No", "Sometimes", "I don't know" ], "Yes"),
     
 ];
 

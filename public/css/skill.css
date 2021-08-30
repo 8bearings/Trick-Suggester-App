@@ -1140,14 +1140,15 @@ body {
     margin-bottom: 10px;
   }
   
-  .team {
+ 
+.team {
     padding: 25px;
-    width: 150px;
-    background: url('https://subtlepatterns.com/patterns/grey_wash_wall.png');
-    background-color: #ececec;
+    width: 70%;
+    background: url(https://subtlepatterns.com/patterns/grey_wash_wall.png);        background-color: #ececec;
     border: 5px solid #333;
     border-radius: 5px;
-  }
+ }
+  
   
   h5 {
     color: #fff;
@@ -1172,10 +1173,10 @@ body {
   }
   
   .logo {
-    border: 5px solid #333;
-    width: 125px;
-    height: 125px;
-    border-radius: 100px;
+    border: 4.5px solid #333;
+    width: 225px;
+    height: 225px;
+    border-radius: 200px;
     background-color: #eee;
     overflow: hidden;
     /* margin: 0 auto; */
