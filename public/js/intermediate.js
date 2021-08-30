@@ -12,11 +12,11 @@ const intermediteTricks = [
       logo: "http://www.skateboardtricksforbeginners.com/wp-content/uploads/2017/02/boardslide-.png"
     },
     { 
-      name: "Fronside Boardslide",
+      name: "Frontside Boardslide",
       logo: "https://media.istockphoto.com/videos/skater-make-frontside-boardslide-on-rail-in-skatepark-closeup-view-video-id1059099984?s=256x256"
     },
     { 
-      name: "Fronside 50-50 Grind",
+      name: "Frontside 50-50 Grind",
       logo: "https://drscdn.500px.org/photo/147473893/q%3D80_m%3D1500_of%3D1/v2?sig=32b87ea8fb588eefccb91376988df9d047164e86f296c34e10786d00ad41db7e"
     },
     { 
