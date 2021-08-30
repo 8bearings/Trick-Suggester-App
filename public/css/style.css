@@ -1110,7 +1110,9 @@ h2, .headline-secondary, .headline-secondary--grouped {
 		transition: padding-left 0.5s, padding-right 0.5s;
 }
   }
-
+  .quizBtn{
+	color: rgb(20, 20, 20);
+}
   /* Randomizer */
 
   /* body {
