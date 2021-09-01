@@ -24,8 +24,8 @@ const intermediteTricks = [
       logo: "https://i.vimeocdn.com/video/813666342_1920x1080.jpg?r=pad"
     },
     { 
-      name: "Switch Ollie",
-      logo: "https://www.skatedeluxe.com/blog/wp-content/uploads/2016/09/trick-tip-switch-kickflip-4.jpg"
+      name: "Kick Flip Front Boardslide",
+      logo: "https://everskate.com/wp-content/uploads/2017/12/how-to-kickflip-trick-tip.jpg"
     },
     { 
       name: "Frontside 50-50 Grind a Handrail",

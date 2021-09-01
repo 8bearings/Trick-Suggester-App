@@ -11,13 +11,19 @@
 }
  a {
 	 text-decoration: none;
-	 color: #242830;
+	 color: #000000;
 }
 /* header */
+
+.text-center, .headContainer{
+	background-color: rgb(212, 212, 212);
+	border-radius: 5%;
+}
 .top{
-	font-size: 3.5em;
+	font-size: 2.8em;
 	font-family: 'Righteous';
 	font-weight: bold;
+	
 }
 .levelTitle{
 	padding-top: .2em;
@@ -55,8 +61,8 @@
  .header {
 	 padding-left: 100px;
 	 padding-right: 100px;
-	 padding-top: 50px;
-	 padding-bottom: 50px;
+	 padding-top: 23px;
+	 padding-bottom: 60px;
 	 transition: padding-left 0.5s, padding-right 0.5s;
 	 font-size: 2em;
 	 font-weight: bold;
@@ -652,7 +658,7 @@ h4 {
       margin-top: 2.625em; } }
 
 a {
-  color: #656a6e;
+  color: #000000;
   text-decoration: none;
   font-weight: 400; }
 
@@ -1043,6 +1049,9 @@ h2, .headline-secondary, .headline-secondary--grouped {
 		margin-left: 2em;
 		margin-right: 2em;
 	}
+	.btn{
+		width: 45%;	
+	}
 	.header a {
 		font-size: .8em;
 		font-family: 'Unica One';
@@ -1113,6 +1122,9 @@ h2, .headline-secondary, .headline-secondary--grouped {
   .quizBtn{
 	color: rgb(20, 20, 20);
 }
+
+/* NEW TITLE */
+
   /* Randomizer */
 
   /* body {

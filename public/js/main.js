@@ -135,6 +135,10 @@ var quiz = new Quiz(questions);
 QuizUI.displayNext();
 }
 
+
+// New Header
+
+
 // Randomizer EZ
 
 // const ezTricks = [
