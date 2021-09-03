@@ -14,7 +14,13 @@
 	 color: #000000;
 }
 /* header */
-
+.headImg{
+	display: flex;
+    width: 4%;
+	margin: 0;
+	padding: 0;
+	float: left;
+}
 .text-center, .headContainer{
 	background-color: rgb(212, 212, 212);
 	border-radius: 5%;

@@ -45,12 +45,12 @@
 
 // Quiz
 
-window.onload = function() {
+// window.onload = function() {
 function Quiz(questions) {
     this.score = 0;
     this.questions = questions;
     this.currentQuestionIndex = 0;
-}
+
 
 Quiz.prototype.guess = function(answer) {
     if(this.getCurrentQuestion().isCorrectAnswer(answer)) {
@@ -136,9 +136,25 @@ QuizUI.displayNext();
 }
 
 
-// New Header
+// Explore
+window.onload = function(){
+const explore = document.getElementById('explore')
 
+explore.addEventListener('click', function fun2(){
+    window.open('/signup')
 
+});
+}
+// var addFunctionOnWindowLoad = function(callback){
+//     if(window.addEventListener){
+//         window.addEventListener('load',callback,false);
+//     }else{
+//         window.attachEvent('onload',callback);
+//     }
+// }
+
+// addFunctionOnWindowLoad(Quiz);
+// addFunctionOnWindowLoad(fun2);
 // Randomizer EZ
 
 // const ezTricks = [
